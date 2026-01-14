@@ -1,33 +1,11 @@
-# 요구 사항
+# fastapi pjt structure refactoring
+강의 및 실습에서 진행한 fastapi 프로젝트 구조로 리팩토링한 프로젝트입니다.(+ 로깅도 추가했습니다.)
 
-0. 전체 파일 확인 해보기
-1. fastapi 프로젝트 리팩토링 하고 싶어
-2. fastapi를 처음 해봐서 main.py 파일에 로직 등을 다 작성했어.
-3. 현재 프로젝트 구조는 생성해놨음
-4. 생성된 프로젝트 구조에 맞춰서 리팩토링해줘
+## 사용 방법
+1. 도커 -> mysql 실행
+2. datagrip db 연결
+3. 터미널 -> LOG_LEVEL=DEBUG LOG_TO_FILE=1 LOG_FILE_PATH=app.log uv run uvicorn main:app --reload 입력
+4. postman 또는 터미널 curl 명령어 사용으로 CRUD 진행
 
-
----
-user(
-{
-id : int autoencrement primarykey not null,
-name : varchar(50) not null,
-email : varchar(100) unique not null,
-created_at : datetime not null
-})
-
-chat(
-{
-id : int autoencrement primarykey not null,
-user_id : varchar(50) not null,
-role : varchar(50) not null,
-message : varchar(500) not null,
-created_at : datetime not null
-})
-
-todo(
-{
-id : int autoencrement primarykey not null,
-content : varchar(100) not null,
-created_at : datetime not null
-})
+## 터미널 curl 명령어
+curl -X POST -H "Content-Type: application/json" -d '{"name": "새로운 사용자", "email": "newuser@example.com"}' http://localhost:8000/users
