@@ -1,16 +1,57 @@
-2026-01-14 15:14:54.198 | INFO     | 29a84e30-771e-4b67-bb0c-01f5de93de9a | REQ method=GET url=http://127.0.0.1:8000/todos/ path=/todos/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'}
-2026-01-14 15:14:54.202 | INFO     | 29a84e30-771e-4b67-bb0c-01f5de93de9a | RES status=307 headers={'content-length': '0'} duration_ms=4.7
-2026-01-14 15:14:54.206 | INFO     | fc3a2785-f3be-46d4-a8e9-619f690648aa | REQ method=GET url=http://127.0.0.1:8000/todos path=/todos query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'}
-2026-01-14 15:14:54.330 | INFO     | fc3a2785-f3be-46d4-a8e9-619f690648aa | RES status=200 headers={'content-type': 'application/json', 'content-length': '422'} duration_ms=124.0
-2026-01-14 15:16:05.025 | INFO     | 97bbeb5c-5536-46ea-b2e9-22b062e36efe | REQ method=POST url=http://127.0.0.1:8000/todos/ path=/todos/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
-    "content" : "인생"
+2026-01-14 16:55:24.024 | INFO     | 5f462388-aec0-45ba-8752-e7f7a199469c | REQ method=GET url=http://127.0.0.1:8000/ path=/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:55:24.029 | INFO     | 5f462388-aec0-45ba-8752-e7f7a199469c | RES status=404 headers={'content-type': 'application/json', 'content-length': '22'} duration_ms=5.5
+2026-01-14 16:55:49.906 | INFO     | 304695cd-14ba-4e61-a179-8a8a8570b514 | REQ method=GET url=http://127.0.0.1:8000/todos path=/todos query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:55:49.991 | INFO     | 304695cd-14ba-4e61-a179-8a8a8570b514 | RES status=200 headers={'content-type': 'application/json', 'content-length': '486'} duration_ms=85.8
+2026-01-14 16:56:48.056 | INFO     | fbb12c87-13ef-4824-ae9a-3711ce811b29 | REQ method=GET url=http://127.0.0.1:8000/redoc path=/redoc query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:56:48.060 | INFO     | fbb12c87-13ef-4824-ae9a-3711ce811b29 | RES status=200 headers={'content-type': 'text/html; charset=utf-8', 'content-length': '888'} duration_ms=4.0
+2026-01-14 16:56:48.284 | INFO     | bbca5595-37c9-4253-9900-ce42577d1698 | REQ method=GET url=http://127.0.0.1:8000/openapi.json path=/openapi.json query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:56:48.331 | INFO     | bbca5595-37c9-4253-9900-ce42577d1698 | RES status=200 headers={'content-type': 'application/json', 'content-length': '6189'} duration_ms=46.6
+2026-01-14 16:57:58.954 | INFO     | ce8e9cee-4c80-4dfb-99bc-9f005fc4411a | REQ method=GET url=http://127.0.0.1:8000/hello path=/hello query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:57:58.963 | INFO     | ce8e9cee-4c80-4dfb-99bc-9f005fc4411a | RES status=404 headers={'content-type': 'application/json', 'content-length': '22'} duration_ms=10.1
+2026-01-14 16:58:03.904 | INFO     | 1dad97bd-1eb1-4bca-83f1-468133d5f474 | REQ method=GET url=http://127.0.0.1:8000/chat/1 path=/chat/1 query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:58:03.918 | INFO     | 1dad97bd-1eb1-4bca-83f1-468133d5f474 | RES status=404 headers={'content-type': 'application/json', 'content-length': '22'} duration_ms=14.8
+2026-01-14 16:59:29.730 | INFO     | 9e5e84ec-0974-4613-9cdc-f8f5a37aee99 | REQ method=POST url=http://127.0.0.1:8000/chats path=/chats query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
+"user_id": 1,
+"message": "Hello, assistant!"
 }
-2026-01-14 15:16:05.033 | INFO     | 97bbeb5c-5536-46ea-b2e9-22b062e36efe | RES status=307 headers={'content-length': '0'} duration_ms=10.2
-2026-01-14 15:16:05.039 | INFO     | 59eb8ba4-e12d-4c9b-b5db-f34add6b4144 | REQ method=POST url=http://127.0.0.1:8000/todos path=/todos query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
-    "content" : "인생"
+
+2026-01-14 16:59:29.734 | INFO     | 9e5e84ec-0974-4613-9cdc-f8f5a37aee99 | RES status=307 headers={'content-length': '0'} duration_ms=4.8
+2026-01-14 16:59:29.738 | INFO     | 01c5b3f0-b112-4327-87dd-d31ac454074d | REQ method=POST url=http://127.0.0.1:8000/chats/ path=/chats/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
+"user_id": 1,
+"message": "Hello, assistant!"
 }
-2026-01-14 15:16:05.300 | INFO     | 59eb8ba4-e12d-4c9b-b5db-f34add6b4144 | RES status=200 headers={'content-type': 'application/json', 'content-length': '63'} duration_ms=260.1
-2026-01-14 15:21:09.649 | INFO     | e2193367-c48e-424d-a86f-d3e78db9ab1d | REQ method=GET url=http://127.0.0.1:8000/todos/ path=/todos/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'}
-2026-01-14 15:21:09.650 | INFO     | e2193367-c48e-424d-a86f-d3e78db9ab1d | RES status=307 headers={'content-length': '0'} duration_ms=1.8
-2026-01-14 15:21:09.654 | INFO     | 60cfae22-0ccb-4323-bf18-120275039fbf | REQ method=GET url=http://127.0.0.1:8000/todos path=/todos query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'}
-2026-01-14 15:21:09.747 | INFO     | 60cfae22-0ccb-4323-bf18-120275039fbf | RES status=200 headers={'content-type': 'application/json', 'content-length': '486'} duration_ms=93.3
+
+2026-01-14 16:59:29.835 | INFO     | 01c5b3f0-b112-4327-87dd-d31ac454074d | RES status=200 headers={'content-type': 'application/json', 'content-length': '100'} duration_ms=96.8
+2026-01-14 16:59:35.567 | INFO     | fd2bd136-ea37-42f3-ab81-98d16316fb5a | REQ method=GET url=http://127.0.0.1:8000/chat/1 path=/chat/1 query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:59:35.571 | INFO     | fd2bd136-ea37-42f3-ab81-98d16316fb5a | RES status=404 headers={'content-type': 'application/json', 'content-length': '22'} duration_ms=4.5
+2026-01-14 16:59:49.051 | INFO     | f7fc4721-80ae-49d6-a6c0-4da77f173baf | REQ method=GET url=http://127.0.0.1:8000/chat/1 path=/chat/1 query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:59:49.054 | INFO     | f7fc4721-80ae-49d6-a6c0-4da77f173baf | RES status=404 headers={'content-type': 'application/json', 'content-length': '22'} duration_ms=3.0
+2026-01-14 16:59:50.057 | INFO     | 8f8908bc-6c7e-49c7-bada-9a83a8c4454f | REQ method=GET url=http://127.0.0.1:8000/chat/1 path=/chat/1 query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 16:59:50.060 | INFO     | 8f8908bc-6c7e-49c7-bada-9a83a8c4454f | RES status=404 headers={'content-type': 'application/json', 'content-length': '22'} duration_ms=3.1
+2026-01-14 17:00:51.422 | INFO     | 4b10dd0e-b8a8-41fd-b2a7-842d713696a1 | REQ method=GET url=http://127.0.0.1:8000/chats/1 path=/chats/1 query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'}
+2026-01-14 17:00:51.484 | INFO     | 4b10dd0e-b8a8-41fd-b2a7-842d713696a1 | RES status=200 headers={'content-type': 'application/json', 'content-length': '778'} duration_ms=63.3
+2026-01-14 17:01:03.400 | INFO     | d8aae7bb-a52b-4ea3-b287-d107748a740c | REQ method=GET url=http://127.0.0.1:8000/chats/1 path=/chats/1 query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'}
+2026-01-14 17:01:03.426 | INFO     | d8aae7bb-a52b-4ea3-b287-d107748a740c | RES status=200 headers={'content-type': 'application/json', 'content-length': '778'} duration_ms=25.8
+2026-01-14 17:02:59.316 | INFO     | d53d0265-47a9-4b05-ab63-eca43354ff3f | REQ method=POST url=http://127.0.0.1:8000/users path=/users query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
+"name": "테스트 1",
+"email": "dfdfsd@ksad.com"
+}
+
+2026-01-14 17:02:59.320 | INFO     | d53d0265-47a9-4b05-ab63-eca43354ff3f | RES status=307 headers={'content-length': '0'} duration_ms=4.8
+2026-01-14 17:02:59.328 | INFO     | 4344aa93-b788-4652-a4da-eda1c6aa4cad | REQ method=POST url=http://127.0.0.1:8000/users/ path=/users/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
+"name": "테스트 1",
+"email": "dfdfsd@ksad.com"
+}
+
+2026-01-14 17:02:59.419 | INFO     | 4344aa93-b788-4652-a4da-eda1c6aa4cad | RES status=200 headers={'content-type': 'application/json', 'content-length': '90'} duration_ms=90.9
+2026-01-14 17:03:06.124 | INFO     | 960ac12c-7356-4f60-9717-be7c1f8fc9a6 | REQ method=POST url=http://127.0.0.1:8000/users path=/users query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
+"name": "테스트 2",
+"email": "dfdfsd12@ksad.com"
+}
+
+2026-01-14 17:03:06.127 | INFO     | 960ac12c-7356-4f60-9717-be7c1f8fc9a6 | RES status=307 headers={'content-length': '0'} duration_ms=3.1
+2026-01-14 17:03:06.130 | INFO     | e96fecb1-731f-4838-a1b8-7f62d4bbd2a2 | REQ method=POST url=http://127.0.0.1:8000/users/ path=/users/ query={} headers={'host': '127.0.0.1:8000', 'user-agent': 'PostmanRuntime/7.51.0', 'content-type': 'application/json'} body={
+"name": "테스트 2",
+"email": "dfdfsd12@ksad.com"
+}
+
