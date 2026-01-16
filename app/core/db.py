@@ -4,8 +4,8 @@ pool = PymysqlConnectionPool(
     maxsize=5,
     host="localhost",
     port=3306,
-    user="root",
-    password="password",
+    user="tester",
+    password="tester",
     database="llmagent",
 )
 
