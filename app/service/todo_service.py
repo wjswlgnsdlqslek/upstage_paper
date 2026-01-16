@@ -4,6 +4,8 @@ from app.models.entities.todo import Todo
 
 
 def create_todo(todo: TodoCreateRequest) -> Todo:
+    if not todo.content:
+        raise ValueError("제목이 비어 있을 수 없습니다.")
     return todo_repo.create_todo(todo.content)
 
 
